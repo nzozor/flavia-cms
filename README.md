@@ -1,3 +1,6 @@
 # Strapi application
 
-A quick description of your strapi application
+sqlitedb in .tmp/data.db
+
+
+https://www.sqlitetutorial.net/sqlite-commands/
