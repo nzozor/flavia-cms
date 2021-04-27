@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "exhibitions_pages",
+  "info": {
+    "name": "ExhibitionsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

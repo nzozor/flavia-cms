@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exhibitions-page",
+      "handler": "exhibitions-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exhibitions-page",
+      "handler": "exhibitions-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exhibitions-page",
+      "handler": "exhibitions-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

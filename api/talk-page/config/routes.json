@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/talk-page",
+      "handler": "talk-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/talk-page",
+      "handler": "talk-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/talk-page",
+      "handler": "talk-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
