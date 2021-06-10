@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/essays-page",
+      "handler": "essays-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/essays-page",
+      "handler": "essays-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/essays-page",
+      "handler": "essays-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

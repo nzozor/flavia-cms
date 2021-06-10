@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "teaching_pages",
+  "info": {
+    "name": "Teaching Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "richtext"
+    }
+  }
+}

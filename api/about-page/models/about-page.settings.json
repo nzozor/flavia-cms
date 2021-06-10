@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
-      "type": "text"
-    },
-    "quoteText": {
-      "type": "text"
-    },
     "imageLargeScreen": {
       "model": "file",
       "via": "related",
@@ -44,6 +38,9 @@
     },
     "title": {
       "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
     }
   }
 }

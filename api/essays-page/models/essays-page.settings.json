@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "exhibitions_pages",
+  "collectionName": "essays_pages",
   "info": {
-    "name": "ExhibitionsPage",
-    "description": ""
+    "name": "Essays Page"
   },
   "options": {
     "increments": true,
@@ -12,9 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "intro": {
       "type": "richtext"
     },
