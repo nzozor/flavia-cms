@@ -18,9 +18,6 @@
     "location": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "date": {
       "type": "datetime"
     },
@@ -44,6 +41,12 @@
     },
     "titleSecond": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "endDate": {
+      "type": "datetime"
     }
   }
 }
